@@ -2,7 +2,7 @@
   "name": "project_syncfusion_dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/react-dashboard-app",
+  "homepage": "https://jatin-k-agarwal.github.io/react-dashboard-app/",
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",

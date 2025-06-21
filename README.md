@@ -1,3 +1,86 @@
+# 📊 React Dashboard App
+
+A responsive and modern admin dashboard built using **React**, **Tailwind CSS**, and **Syncfusion** components.
+
+## 🚀 Live Demo
+
+🌐 [View App](https://jatin-k-agarwal.github.io/react-dashboard-app/)
+
+---
+
+## 📌 Features
+
+- 💡 Light/Dark Theme Toggle
+- 🎨 Theme color picker
+- 📈 Fully functional charts (Line, Bar, Pie, Pyramid, Stacked, Sparkline)
+- 📅 Calendar with drag-and-drop events
+- 🧾 Kanban Board for task management
+- 📋 Rich Text Editor
+- 🛒 Shopping Cart Overlay
+- 👤 User Profile & Notifications Panel
+- 📊 Responsive Grid for Orders, Customers, and Employees
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **React Router DOM** for navigation
+- **Tailwind CSS** for responsive styling
+- **Syncfusion React Components** for charts, scheduler, and UI elements
+- **gh-pages** for deployment
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/ // Reusable UI components (Sidebar, Navbar, Charts, etc.)
+├── pages/ // Route-based pages like Ecommerce, Orders, Employees, etc.
+├── data/ // Dummy data & assets
+├── contexts/ // Global state via Context API
+├── App.js // Main app logic & routes
+├── index.js // Entry point
+
+
+---
+
+## 🧰 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js and npm installed
+- Git
+
+### 🔄 Installation
+
+```bash
+git clone https://github.com/jatin-k-agarwal/react-dashboard-app.git
+cd react-dashboard-app
+npm install
+npm start
+Visit: http://localhost:3000/ to view the app locally.
+```
+⚠️ Known Warnings
+Some ESLint warnings for useEffect dependencies and unused variables.
+
+Large bundle size due to chart libraries and images — can be optimized with code splitting.
+
+
+---
+
+### ✅ How to Use It
+
+1. Create a file named `README.md` in your project root
+2. Paste the above content
+3. Commit and push:
+
+```bash
+git add README.md
+git commit -m "Add project README"
+git push
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
